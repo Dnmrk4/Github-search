@@ -4,11 +4,11 @@
 
 ### Danmark Mutai
 
-##Demo live site:
+## Demo live site:
 
 ### Url: https://Dnmrk4.github.io/github-search/
 
-#Decription
+## Decription
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 This is a simple app used to search github users by their username and see all their information.
