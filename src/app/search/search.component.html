@@ -16,7 +16,7 @@
             <p><a href="{{user.html_url}}" target="blank">{{user.login}}</a></p>
             <p>{{user.company}}</p>
           </div>
-          <object data="../../assets/alt.png" width="200px" height="200px">
+          <object onerror="this.scr='../../assets/alt.png';" width="200px" height="200px">
           <img src="{{user.avatar_url}}" width="200px" height="200px" class="img-circle img-responsive">
           </object>
           <p>{{user.email}}</p>
