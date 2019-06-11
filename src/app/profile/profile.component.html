@@ -1,0 +1,24 @@
+<div class="container" style=" background-color: rgba(255, 255, 255, 0.39); padding-top:100px;">
+  <h4>Github Profile</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <img height="280px" src="../../assets/data.png">
+      <div class="card-b">
+        <p class="card-t" id="name">Danmark Mutai</p>
+        <button class="btn btn-primary" (click)="getRepos()">REPOSITORIES</button>
+      </div>
+    </div>
+
+    <br> <br>
+    <div *ngFor='let repo of result; let i = "index"' class="col-md-4">
+      <div>
+        <div id="mycards" class="card">
+          <div class="card-body">
+            <h3 class="card-title">{{repo.name}}</h3>
+            <p class="card-text"><a href="{{repo.html_url}}">{{repo.html_url}}</a> <br> {{repo.description}} </p>
+          </div>
+        </div>
+      </div>
+    </div><br>
+  </div>
+</div>
