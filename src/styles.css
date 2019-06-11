@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  background:url(./assets/oriental.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  background-color: rgba(112, 112, 112, 0.205);
+}
+navbar {
+  background-color: rgba(112, 112, 112, 0.205);
+}
